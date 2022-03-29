@@ -173,7 +173,7 @@ const PostCreate = ({ postService }) => {
     postService.createPost(PostTitle, PostDesc, category, AttachmentName)
 
     setTimeout(() => {
-      navigate("/cotato/" + category.category)
+      navigate("/cotato /" + category.category)
     }, 500)
   }
 
